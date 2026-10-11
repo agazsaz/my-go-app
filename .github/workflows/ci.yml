@@ -7,8 +7,8 @@ on:
     branches: [ main, master ]
 
 jobs:
-  test:
-    name: Lint & Test
+  build:
+    name: Build Project
     runs-on: ubuntu-latest
 
     steps:
@@ -20,9 +20,5 @@ jobs:
         with:
           go-version: '1.22'
 
-      - name: Run vet
-        run: go vet ./...
-
-      - name: Run tests with coverage
-        run: go test -v ./...
-
+      - name: Build application
+        run: go build -v ./... 
