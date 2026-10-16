@@ -2,7 +2,7 @@
 
 ## CI/CD для Go-приложения: GitHub Actions + Docker
 
-**Выполнил:** agazsaz
+**Выполнил:** Потапов Иван 28ИПО8481
 **Репозиторий:** https://github.com/agazsaz/my-go-app
 **Дата:** 16.10.2026
 
